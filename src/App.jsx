@@ -1,14 +1,16 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <div className=" flex flex-col items-center justify-center  bg-black shadow-xl rounded-xl">
-        <div className="flex flex-col items-center justify-center h-full  bg-gray-900 my-8 w-[400px]">
+      <div className=" flex flex-col items-center justify-center  bg-[#23252C]">
+        <div className="flex flex-col items-center justify-center h-full  bg-[#1A1B21] my-8 w-[400px]">
           <Navbar />
           <Main />
+          <Footer />
         </div>
       </div>
     </>
